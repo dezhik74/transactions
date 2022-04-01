@@ -22,7 +22,7 @@ export default defineComponent({
       <router-link class="nav-link" to="/navigator?tab=0">List Page</router-link>
     </li>
   </ul>
-  <div class="main_cont">
+  <div class="container">
     <router-view></router-view>
   </div>
 
@@ -30,8 +30,4 @@ export default defineComponent({
 </template>
 
 <style scoped>
-.main_cont {
-  width: 700px;
-  margin: auto;
-}
 </style>
